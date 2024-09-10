@@ -26,7 +26,7 @@
 
 - Pode haver caracteres especiais
 
-- ## class #3
+## class #3
 
 ### Declaração de métodos
 
@@ -57,6 +57,36 @@ public class MyClass {
 
 ```
 
-- ## class #4
+## class #4
 
 - Identação: Termo utilizado para escrever o código de forma hierárquica, facilitando a visualização e entendimento;
+
+  ### Código sem identação:
+  
+ ```java
+public class IfExample {
+public static void main(String[] args) {
+boolean condition = true;
+if (condition) {
+System.out.println("A condição é verdadeira.");
+} else {
+System.out.println("A condição é falsa.");
+}
+}
+}
+  ```
+
+- Código identado está na pasta classes/src/identacao.java
+
+ ## class #5
+ - Package indica onde seu arquivo está inserido
+ - Pode ser verificado nos arquivos commitados
+
+ ## class #6
+
+-  Java Beans -> Tenta padronizar bons costumes de programação com a linguagem java, tornando códigos mais legíveis e reutilizáveis.
+
+-  Recomendações na declaração de variáveis: Não abreviar, singularidade (a não ser que seja um array) e padronizar o idioma utilizado.
+
+-  Métodos normalmente são representados com UM verbo e primeiras letras das palavras em maiúsculos
+
