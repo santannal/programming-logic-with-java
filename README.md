@@ -90,3 +90,34 @@ System.out.println("A condição é falsa.");
 
 -  Métodos normalmente são representados com UM verbo e primeiras letras das palavras em maiúsculos
 
+# Tipos e variáveis 
+
+## Class #1
+
+- Tipos inteiros
+    - byte
+    - short
+    - int
+    - long -> Ao atribuir um valor, precisa inserir um caracter "L" no final, exemplo: 123456L
+- Tipos decimais
+    - float -> Ao atribuir um valor, precisa inserir um caracter "F" no final, exemplo: 3.14F
+    - double
+ 
+ ## Class #2
+
+#### Constantes 
+
+- Normalmente declaramos em CAPS LOCK;
+- Utilizamos o final;
+      -> Exemplo:
+
+  ```java
+  final double PI_VALUE = 3.14; 
+  ```
+
+- Representar texto:
+  - String
+      
+
+
+
