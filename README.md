@@ -117,6 +117,64 @@ System.out.println("A condição é falsa.");
 
 - Representar texto:
   - String
+ 
+# Operadores
+
+Operadores Aritméticos: Usados para realizar operações matemáticas:
+
+- + (adição)
+- - (subtração)
+- * (multiplicação)
+- / (divisão)
+- % (módulo, retorna o resto de uma divisão)
+
+## Operadores de Atribuição: Atribuem valores às variáveis:
+
+- = (atribuição simples)
+- += (adição e atribuição)
+- -= (subtração e atribuição)
+- *= (multiplicação e atribuição)
+- /= (divisão e atribuição)
+
+
+## Operadores de Comparação: Comparam dois valores e retornam verdadeiro ou falso:
+
+- == (igual a)
+- != (diferente de)
+- > (maior que)
+- < (menor que)
+- >= (maior ou igual a)
+- <= (menor ou igual a)
+
+## Operadores Lógicos: Usados para combinar expressões booleanas:
+
+- && (E lógico - retorna verdadeiro se ambas as condições forem verdadeiras)
+- || (OU lógico - retorna verdadeiro se uma das condições for verdadeira)
+- ! (NÃO lógico - inverte o valor booleano)
+
+## Operadores Unários: Operam em um único operando:
+
+- ++ (incremento)
+- -- (decremento)
+- + (positivo)
+- - (negativo)
+
+## Operadores Bitwise: Operam em bits dos números inteiros:
+
+- & (E bit a bit)
+- | (OU bit a bit)
+- ^ (XOR bit a bit)
+- ~ (NÃO bit a bit)
+- << (deslocamento à esquerda)
+- >> (deslocamento à direita)
+
+## Operador Ternário: Condicional de três partes, que funciona como um "if" em uma única linha:
+
+condição ? valor_se_verdadeiro : valor_se_falso
+
+## Operadores de Instância: Testam relações de objetos:
+
+instanceof (verifica se um objeto é uma instância de uma classe ou interface)
       
 
 
