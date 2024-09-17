@@ -175,6 +175,11 @@ condição ? valor_se_verdadeiro : valor_se_falso
 ## Operadores de Instância: Testam relações de objetos:
 
 instanceof (verifica se um objeto é uma instância de uma classe ou interface)
+
+# Métodos
+
+- Deve ser nomeado como verbo
+- Letras minúsculas, menos da segunda palavra
       
 
 
