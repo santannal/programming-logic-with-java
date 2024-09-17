@@ -180,7 +180,16 @@ instanceof (verifica se um objeto é uma instância de uma classe ou interface)
 
 - Deve ser nomeado como verbo
 - Letras minúsculas, menos da segunda palavra
-      
+
+# Escopo
+
+O escopo pode ser entendido como o ambiente onde uma variável pode ser acessada. Em Java, o escopo de variáveis vai de acordo com o bloco onde ela foi declarada.
+
+    - Escopo de método
+    - ''     '' Classe
+    - ''     '' Fluxo
+
+! Interpretar delimitações e fronteiras das variáveis
 
 
 
