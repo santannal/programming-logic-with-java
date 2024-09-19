@@ -197,4 +197,37 @@ O escopo pode ser entendido como o ambiente onde uma variável pode ser acessada
 
 ![image (10) (1) (1) (1)](https://github.com/user-attachments/assets/b8103724-db1d-4900-a6d9-e2dd0c753c7d)
 
+# Java Doc
+
+## Tags para descrição
+
+- @autor	Autor / Criador
+- @version	Versão do recurso disponibilizado
+- @since	Versão / Data de início da disponibilização do recurso
+- @param	Descrição dos parâmetros dos métodos criados
+- @return	Definição do tipo de retorno de um método
+- @throws	Se o método lança alguma exceção
+- Utilizar /** */
+
+## Exemplificação
+```java
+/**
+* <h1>Teste</h1>
+* Teste de documentação
+* <p>
+* <b>Note:</b> Leia atentamente a documentação desta classes
+* para desfrutar dos recursos oferecidos pelo autor
+*
+* @author  Name
+* @version 1.0
+* @since   19/09/2024
+*/
+public class Calculadora {
+    public int somar(int numeroUm, int numeroDois) {
+        return  numeroUm + numeroDois;
+    }
+}
+```
+
+
 
