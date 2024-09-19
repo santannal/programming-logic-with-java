@@ -175,7 +175,26 @@ condição ? valor_se_verdadeiro : valor_se_falso
 ## Operadores de Instância: Testam relações de objetos:
 
 instanceof (verifica se um objeto é uma instância de uma classe ou interface)
-      
 
+# Métodos
+
+- Deve ser nomeado como verbo
+- Letras minúsculas, menos da segunda palavra
+
+# Escopo
+
+O escopo pode ser entendido como o ambiente onde uma variável pode ser acessada. Em Java, o escopo de variáveis vai de acordo com o bloco onde ela foi declarada.
+
+    - Escopo de método
+    - ''     '' Classe
+    - ''     '' Fluxo
+
+! Interpretar delimitações e fronteiras das variáveis
+
+# Palavras Reservadas
+
+- Palavras reservadas são identificadores de uma linguagem que já possuem uma finalidade específica, portanto não podem ser utilizados para nomear variáveis, classes, métodos ou atributos.
+
+![image (10) (1) (1) (1)](https://github.com/user-attachments/assets/b8103724-db1d-4900-a6d9-e2dd0c753c7d)
 
 
