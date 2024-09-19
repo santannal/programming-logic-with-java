@@ -1,4 +1,4 @@
-package com.tvProject;
+package com.myProjects.tvProject;
 
 import java.util.Scanner;
 
