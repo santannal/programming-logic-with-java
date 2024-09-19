@@ -191,5 +191,10 @@ O escopo pode ser entendido como o ambiente onde uma variável pode ser acessada
 
 ! Interpretar delimitações e fronteiras das variáveis
 
+# Palavras Reservadas
+
+- Palavras reservadas são identificadores de uma linguagem que já possuem uma finalidade específica, portanto não podem ser utilizados para nomear variáveis, classes, métodos ou atributos.
+
+![image (10) (1) (1) (1)](https://github.com/user-attachments/assets/b8103724-db1d-4900-a6d9-e2dd0c753c7d)
 
 
