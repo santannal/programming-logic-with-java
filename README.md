@@ -231,3 +231,47 @@ public class Calculadora {
 
 
 
+## Try/Catch
+
+- Em Java, exceptions (exceções) são eventos que ocorrem durante a execução de um programa que interrompem o fluxo normal das instruções. Elas são usadas para tratar erros e outras condições anômalas que podem surgir durante a execução de um código.
+
+- Erro é irreparável.
+
+- Podemos customizar exceções para diversas situações específicas, exemplo:
+
+```java
+package com.Exceptions;
+
+public class InvalidCep extends Exception {
+    
+}
+```
+
+### Utilizando:
+
+```java
+package com.Exceptions;
+
+public class CepExample {
+    public static void main(String[] args) {
+        try {
+            String cep = formatarCep("23765064");
+            System.out.println(cep);
+        } catch (InvalidCep e) {
+            System.out.println("Cep incorreto!");
+        }
+    }
+
+    static String formatarCep(String cep) throws InvalidCep {
+        if (cep.length() != 8)
+            throw new InvalidCep();
+
+        return "23.765-064";
+    }
+}
+
+```
+
+
+
+
