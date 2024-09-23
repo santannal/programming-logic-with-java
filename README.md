@@ -197,4 +197,81 @@ O escopo pode ser entendido como o ambiente onde uma variável pode ser acessada
 
 ![image (10) (1) (1) (1)](https://github.com/user-attachments/assets/b8103724-db1d-4900-a6d9-e2dd0c753c7d)
 
+# Java Doc
+
+## Tags para descrição
+
+- @autor	Autor / Criador
+- @version	Versão do recurso disponibilizado
+- @since	Versão / Data de início da disponibilização do recurso
+- @param	Descrição dos parâmetros dos métodos criados
+- @return	Definição do tipo de retorno de um método
+- @throws	Se o método lança alguma exceção
+- Utilizar /** */
+
+## Exemplificação
+```java
+/**
+* <h1>Teste</h1>
+* Teste de documentação
+* <p>
+* <b>Note:</b> Leia atentamente a documentação desta classes
+* para desfrutar dos recursos oferecidos pelo autor
+*
+* @author  Name
+* @version 1.0
+* @since   19/09/2024
+*/
+public class Calculadora {
+    public int somar(int numeroUm, int numeroDois) {
+        return  numeroUm + numeroDois;
+    }
+}
+```
+
+
+
+## Try/Catch
+
+- Em Java, exceptions (exceções) são eventos que ocorrem durante a execução de um programa que interrompem o fluxo normal das instruções. Elas são usadas para tratar erros e outras condições anômalas que podem surgir durante a execução de um código.
+
+- Erro é irreparável.
+
+- Podemos customizar exceções para diversas situações específicas, exemplo:
+
+```java
+package com.Exceptions;
+
+public class InvalidCep extends Exception {
+    
+}
+```
+
+### Utilizando:
+
+```java
+package com.Exceptions;
+
+public class CepExample {
+    public static void main(String[] args) {
+        try {
+            String cep = formatarCep("23765064");
+            System.out.println(cep);
+        } catch (InvalidCep e) {
+            System.out.println("Cep incorreto!");
+        }
+    }
+
+    static String formatarCep(String cep) throws InvalidCep {
+        if (cep.length() != 8)
+            throw new InvalidCep();
+
+        return "23.765-064";
+    }
+}
+
+```
+
+
+
 
