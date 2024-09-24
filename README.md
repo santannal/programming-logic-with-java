@@ -272,6 +272,22 @@ public class CepExample {
 
 ```
 
+# Debugging
+
+O debugging em Java é o processo de identificar e corrigir erros (bugs) no código durante a execução do programa. Para realizar debugging de forma eficaz, os desenvolvedores utilizam várias ferramentas e técnicas.
+
+- Ferramentas de Debug: As IDEs, como IntelliJ IDEA, Eclipse e NetBeans
+
+- Erro de Lógica vs Erro de Sintaxe: Enquanto erros de sintaxe impedem a compilação do código (facilmente identificados pelo compilador), erros de lógica podem passar despercebidos até a execução. O debugging ajuda a rastrear esses problemas.
+
+- Step Over/Step Into: Comandos que permitem avançar na execução linha
+
+- Watch/Inspect: Ferramentas que mostram o valor de variáveis em tempo real
+
+- Breakpoints: Pontos onde a execução do código é pausada para inspecionar
+
+- Exceções: Erros comuns em Java podem ser tratados por meio do uso de blocos try-catch
+
 
 
 
