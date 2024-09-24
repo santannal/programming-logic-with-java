@@ -1,4 +1,4 @@
-package com.Exceptions;
+package com.myProjects.Exceptions;
 
 import java.util.InputMismatchException;
 import java.util.Locale;

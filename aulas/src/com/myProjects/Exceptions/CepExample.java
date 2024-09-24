@@ -1,4 +1,4 @@
-package com.Exceptions;
+package com.myProjects.Exceptions;
 
 public class CepExample {
     public static void main(String[] args) {
